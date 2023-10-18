@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+.pri-bg-col{
+    background-color: #2eca6a !important;
+}
+
+.pri-sec-bg-col{
+    background-color: #2eca6a7c !important;
+}
+
+.pri-text-col{
+    color:#2eca6a !important ;
+}
+
+.pri-sec-col{
+    background-color: #fff !important;
+}
+
+.btn-0utline{
+    color: #fff !important;
+    border: 2px solid #2eca6a !important;
+
+}
+
+header{
+    z-index: 100;
+}
+
+
+
+ul li:hover{
+    border-bottom: 3px solid #2eca6a;
+    cursor: pointer;
+}
+
+.read-more{
+    border: none !important;
+}
+
+.read-more:hover{
+    border: none !important;
+    color: #2eca6a !important;
+}
+
+
+
+
+
+/* Latest property */
+
+.property-card {
+  position: relative;
+}
+.overlay{
+    position: absolute;
+    bottom: 0px;
+    right:13px;
+    
+   background-color: rgba(0, 0, 0, 0.473);
+   width: 93%;
+   transition: 0.5s ease-in-out;
+   overflow: hidden;
+   height: 37%;
+   transition: 0.5s ease; 
+}
+
+.property-card:hover .overlay{
+    height: 55%;
+    cursor: pointer;
+}
+
+.card img{
+    transition: ease 0.9s;
+}
+
+.card img:hover{
+    transform: scale(1.02);
+}
+
+.card-info{
+    list-style: none;
+    width: 348px;
+
+}
+
+.card-footer .card-info ul li:hover{
+    border-bottom: 0 !important;
+}
+
+.card-info:hover{
+    cursor: pointer;
+}
+
+/* Best Agent */
+.agent-card {
+    position: relative;
+  }
+
+  .overlay-agent{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.473);
+   transition: 0.5s ease-in-out;
+   overflow: hidden !important;
+   visibility: hidden;
+   height: 100%;
+   opacity: 0;
+}
+
+.overlay-agent:hover{
+    opacity: 1;
+
+}
+
+.overlay-agent:hover .agent-card-text{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    transform: translateY(-8px);
+}
+
+.card-content{
+   padding-top: 60px !important;
+    height: 70vh;
+    width: 100%;
+}
+
+.card-content > *{
+    transform: translateY(25px);
+    transition: transform(0.6s);
+}
+.card-content:hover > *{
+    transform: translateY(0px);
+}
+
+.agent-card:hover .overlay-agent{
+    cursor: pointer;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+/* Latest News */
+.news-card {
+    position: relative;
+  }
+
+  .news-overlay{
+    position: absolute;
+    bottom: 0px;
+    right:12px;
+    width: 93%;
+   background-color: rgba(0, 0, 0, 0.473);
+   transition: 0.5s ease-in-out;
+   overflow: hidden !important;
+   height: 60%;
+}

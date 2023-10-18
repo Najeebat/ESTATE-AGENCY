@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- custom styling link -->
+<link rel="stylesheet" href="index.css">
+
+<!-- bootstrap CDN -->
+    <title>Estate-Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  
+<!-- bootstrap icon CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!-- AOS Animation CDN -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <body>
+
+   <header class="header bg-white p-2 shadow-sm" >
+    <nav class="navbar navbar-expand-lg pri-sec-col m-auto" style="width: 90%;">
+        <div class="container-fluid">
+            <div class="logo bg-white p-4" style="font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 600;">
+                <span >Estate</span> <Span class="pri-text-col">Agency</Span>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0 mx-5 me-5 d-flex justify-content-center" style="font-family: 'Roboto', sans-serif; font-weight: 700;">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="service.html">Service</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Property</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+            </ul>
+              
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn pri-bg-col text-white px-2 " type="submit" style="border-radius: 0%;"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- intro -->
+    <main class="">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" data-bs-wrap="true">
+           <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+    <div class="carousel-item active first-carousel ps-5" 
+    style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img1.webp);  
+    height: 80vh; background-position: center; background-size: cover;background-repeat: no-repeat;">
+                 <div class="ms-5 ps-5">
+                     <h4 class="text-white mt-4 pt-5">Doral,florida <br> 78345</h4>
+                     <h1 class="text-white mt-4 pt-3" 
+                     style="font-size: 70px; font-weight: 700;">
+                     <span class="pri-text-col">204</span> ALIRA <br> ROAN ROAD ONE</h1>
+            </div>
+
+            <div class="ms-5 mt-5">
+                <button class=" btn  btn-0utline p-3 px-5 ms-5 rounded-pill" 
+                 style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 20px;">RENT | $ 12.000</button>
+          </div>
+          </div>
+
+          <div class="carousel-item second-carousel" 
+          style=" background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1513&q=80);
+           height: 80vh; background-position: center; background-size: cover; background-repeat: no-repeat;">
+              <div class="ms-5 ps-5">
+                  <h4 class="text-white mt-4 pt-5">Doral,florida <br> 78345</h4>
+                  <h1 class="text-white mt-4 pt-3" 
+                      style="font-size: 70px; font-weight: 700;">
+                       <span class="pri-text-col">204</span> MOUNT <br> OLIVE ROAD TWO</h1>
+            </div>
+
+            <div class="ms-5 mt-5">
+                <button class=" btn  btn-0utline p-3 px-5 ms-5 rounded-pill"
+                  style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 20px;">RENT | $ 12.000</button>
+            </div>
+          </div>
+
+          <div class="carousel-item third-carousel" style=" background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+                height: 80vh; background-position: center; background-size: cover; background-repeat: no-repeat;">
+               <div class="ms-5 ps-5">
+                    <h4 class="text-white mt-4 pt-5">Doral,florida <br> 78345</h4>
+                    <h1 class="text-white mt-4 pt-3"
+                     style="font-size: 70px; font-weight: 700;">
+                       <span class="pri-text-col">204</span> RINO <br> VENDA ROAD ONE</h1>
+            </div>
+
+            <div class="ms-5 mt-5">
+              <button class=" btn  btn-0utline p-3 px-5 ms-5 rounded-pill" 
+                  style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 20px;">RENT | $ 12.000</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+<!-- Our service section -->
+   <section class="p-5">
+
+    <div class="tittle">
+      <h1 class="mb-5 pb-5 " 
+      style="font-size: 50px; font-weight: 700;font-family: 'Roboto', sans-serif; margin-left: 60px;">Our Services</h1>
+
+            <div class="container-sm text-start">
+              <div class="row align-items-center">
+                 <div class="col-md-4">
+                  <div class="card border-0" >
+                    <div class=" d-flex position-relative">
+                    <i class="bi bi-cart ps-4 ms-3" style="font-size: 70px; border: 4px solid #2eca6a; width: 45%;"></i>
+                    <h1 class="mt-4 pt-3 ps-5 " style="font-size: 40px; font-weight: 800;font-family: 'Roboto', sans-serif; position: absolute; margin-left: 70px;">Lifestyle</h1>
+                  </div>
+                    <div class="card-body">
+                      <p class="card-text"  style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.
+                         Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                         <a href="#" class="btn read-more ps-0  fw-medium ">Read more <span><i class="bi bi-chevron-right "></i></span> </a>
+                    </div>
+                  </div>
+                 </div>
+                 
+                 <div class="col-md-4">
+                  <div class="card border-0" >
+                    <div class=" d-flex position-relative">
+                    <i class="bi bi-calendar4-week ps-4 ms-3" style="font-size: 70px; border: 4px solid #2eca6a; width: 45%;"></i>
+                    <h1 class="mt-4 pt-3 ps-5 " style="font-size: 40px; font-weight: 800;font-family: 'Roboto', sans-serif; position: absolute; margin-left: 80px;">Loan</h1>
+                  </div>
+                    <div class="card-body">
+                      <p class="card-text " style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">Nulla porttitor accumsan tincidunt. Curabitur
+                         aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                         <a href="#" class="btn read-more ps-0  fw-medium ">Read more <span><i class="bi bi-chevron-right "></i></span> </a>
+                    </div>
+                  </div>
+                 </div>
+                 
+                 <div class="col-md-4">
+                  <div class="card border-0" >
+                    <div class=" d-flex position-relative">
+                    <i class="bi bi-card-checklist ps-4 ms-3" style="font-size: 70px; border: 4px solid #2eca6a; width: 45%;"></i>
+                    <h1 class="mt-4 pt-3 ps-5 " style="font-size: 40px; font-weight: 800;font-family: 'Roboto', sans-serif; position: absolute; margin-left: 80px;">Sell</h1>
+                  </div>
+                    <div class="card-body">
+                      <p class="card-text"  style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.
+                         Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                         <a href="#" class="btn read-more ps-0  fw-medium ">Read more <span><i class="bi bi-chevron-right "></i></span> </a>
+                    </div>
+                  </div>
+                 </div>
+
+                
+                </div>
+              </div>
+            </div>
+</div>
+
+   </section>
+
+<!-- Latest property -->
+
+<section>
+  <div class="property-title mt-5 d-flex justify-content-between">
+    <h1 class="mb-4 pb-4" style="font-size: 50px; font-weight: 700; font-family: 'Roboto', sans-serif; margin-left: 105px;">Latest Property</h1>
+    <a href="#" class="btn read-more ps-0 fw-light" style="margin-right: 110px; font-size: 20px;">All Properties<span><i class="bi bi-chevron-right"></i></span></a>
+  </div>
+  <div class=" container-sm ">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
+    
+      <div class="carousel-inner">
+        <div class=" carousel-item active">
+          <div class="container text-center">
+            <div class="row align-items-center">
+
+              <div class="property-card  col-md-4">
+                <div class="card ">
+                <img src="property-3.jpg" class=" d-block w-100" alt="...">
+              </div>
+              <div class="overlay">
+                <div class="intro text-white text-start ps-3">
+                  <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                    204 ALIRA <br> ROAN ROAD ONE
+                  </h1>
+                  <div class="mt-1 me-5">
+                    <span class=" btn-outline py-1 px-4 rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+                  </div>
+                  <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+                </div>
+                <div class="card-footer p-auto">
+                  <ul class="card-info d-flex justify-content-around  pri-bg-col py-3">
+                    <li class="border-bottom-0 "><h6>Area</h6> <span>340m</span></li>
+                    <li class="border-bottom-0"><h6>Bed</h6> <span>2</span></li>
+                    <li class="border-bottom-0"><h6>Bath</h6> <span>4</span></li>
+                    <li class="border-bottom-0"><h6>Garage</h6> <span>1</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+              <div class="property-card col-md-4">
+                <div class="card ">
+                <img src="property-6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="overlay">
+                <div class="intro text-white text-start ps-3">
+                  <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                    204 ALIRA <br> ROAN ROAD ONE
+                  </h1>
+                  <div class="mt-1 me-5">
+                    <span class=" btn-outline py-1 px-4 rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+                  </div>
+                  <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+                </div>
+
+                <div class="card-footer ">
+                  <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+                    <li><h6>Area</h6> <span>340m</span></li>
+                    <li><h6>Bed</h6> <span>2</span></li>
+                    <li><h6>Bath</h6> <span>4</span></li>
+                    <li><h6>Garage</h6> <span>1</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+              <div class="property-card col-md-4">
+                <div class="card ">
+                <img src="property-10.jpg" class="d-block w-100" alt="...">
+              </div>
+               <div class="overlay">
+                <div class="intro text-white text-start ps-3">
+                  <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                    204 ALIRA <br> ROAN ROAD ONE
+                  </h1>
+                  <div class="mt-1 me-5">
+                    <span class=" btn-outline py-1 px-4 rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+                  </div>
+                  <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+                </div>
+
+                <div class="card-footer ">
+                  <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+                    <li><h6>Area</h6> <span>340m</span></li>
+                    <li><h6>Bed</h6> <span>2</span></li>
+                    <li><h6>Bath</h6> <span>4</span></li>
+                    <li><h6>Garage</h6> <span>1</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row align-items-center">
+          <div class="property-card col-md-4">
+            <div class="card ">
+            <img src="property-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay">
+            <div class="intro text-white text-start ps-3">
+              <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                204 ALIRA <br> ROAN ROAD ONE
+              </h1>
+              <div class="mt-1 me-5">
+                <span class=" btn-outline py-1 px-4 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+              </div>
+              <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+            </div>
+            <div class="card-footer ">
+              <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+                <li><h6>Area</h6> <span>340m</span></li>
+                <li><h6>Bed</h6> <span>2</span></li>
+                <li><h6>Bath</h6> <span>4</span></li>
+                <li><h6>Garage</h6> <span>1</span></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+         
+    
+          <div class="property-card col-md-4">
+            <div class="card ">
+            <img src="property-7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay">
+            <div class="intro text-white text-start ps-3">
+              <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                204 ALIRA <br> ROAN ROAD ONE
+              </h1>
+              <div class="mt-1 me-5">
+                <span class=" btn-outline py-1 px-4 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+              </div>
+              <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+            </div>
+            <div class="card-footer ">
+              <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+                <li><h6>Area</h6> <span>340m</span></li>
+                <li><h6>Bed</h6> <span>2</span></li>
+                <li><h6>Bath</h6> <span>4</span></li>
+                <li><h6>Garage</h6> <span>1</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+          <div class="property-card col-md-4">
+            <div class="card ">
+            <img src="property-6.jpg " class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay">
+            <div class="intro text-white text-start ps-3">
+              <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+                204 ALIRA <br> ROAN ROAD ONE
+              </h1>
+              <div class="mt-1 me-5">
+                <span class=" btn-outline py-1 px-4 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+              </div>
+              <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+            </div>
+    
+            <div class="card-footer ">
+              <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+                <li><h6>Area</h6> <span>340m</span></li>
+                <li><h6>Bed</h6> <span>2</span></li>
+                <li><h6>Bath</h6> <span>4</span></li>
+                <li><h6>Garage</h6> <span>1</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <div class="carousel-item">
+      <div class="container text-center">
+        <div class="row align-items-center">
+      <div class="property-card col-md-4">
+        <div class="card ">
+        <img src="property-10.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="overlay">
+        <div class="intro text-white text-start ps-3">
+          <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+            204 ALIRA <br> ROAN ROAD ONE
+          </h1>
+          <div class="mt-1 me-5">
+            <span class=" btn-outline py-1 px-4 rounded-pill" 
+            style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+          </div>
+          <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+        </div>
+        <div class="card-footer ">
+          <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+            <li><h6>Area</h6> <span>340m</span></li>
+            <li><h6>Bed</h6> <span>2</span></li>
+            <li><h6>Bath</h6> <span>4</span></li>
+            <li><h6>Garage</h6> <span>1</span></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+     
+
+      <div class="property-card col-md-4">
+        <div class="card ">
+        <img src="property-6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="overlay">
+        <div class="intro text-white text-start ps-3">
+          <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+            204 ALIRA <br> ROAN ROAD ONE
+          </h1>
+          <div class="mt-1 me-5">
+            <span class=" btn-outline py-1 px-4 rounded-pill" 
+            style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+          </div>
+          <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+        </div>
+        <div class="card-footer ">
+          <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+            <li><h6>Area</h6> <span>340m</span></li>
+            <li><h6>Bed</h6> <span>2</span></li>
+            <li><h6>Bath</h6> <span>4</span></li>
+            <li><h6>Garage</h6> <span>1</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <div class="property-card col-md-4">
+        <div class="card ">
+        <img src="property-7.jpg " class="d-block w-100" alt="...">
+      </div>
+      <div class="overlay">
+        <div class="intro text-white text-start ps-5">
+          <h1 class="text-white mt-4 pt-3" style="font-size: 30px; font-weight: 600;">
+            204 ALIRA <br> ROAN ROAD ONE
+          </h1>
+          <div class="mt-1 me-5">
+            <span class=" btn-outline py-1 px-4 rounded-pill" 
+            style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;  border: 1px solid #2eca6a ;">RENT | $12,000</span>
+          </div>
+          <a href="#" class="btn read-more ps-0 fw-medium text-white" style="margin-right: 110px; font-size: 16px;">Click here to view<span><i class="bi bi-chevron-right"></i></span></a>
+        </div>
+
+        <div class="card-footer ">
+          <ul class="card-info d-flex justify-content-around pri-bg-col py-3">
+            <li><h6>Area</h6> <span>340m</span></li>
+            <li><h6>Bed</h6> <span>2</span></li>
+            <li><h6>Bath</h6> <span>4</span></li>
+            <li><h6>Garage</h6> <span>1</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Best Agent -->
+<section class="py-3 my-3">
+  <div class="property-title mt-5 d-flex justify-content-between">
+    <h1 class="mb-4 pb-4" style="font-size: 50px; font-weight: 700; font-family: 'Roboto', sans-serif; margin-left: 105px;">Best Agent</h1>
+    <a href="#" class="btn read-more ps-0 fw-light" style="margin-right: 110px; font-size: 20px;">All Agents<span><i class="bi bi-chevron-right"></i></span></a>
+  </div>
+
+  <div class="container-sm text-start">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <div class="card agent-card  border-0">
+          <div class=" ">
+            <img src="agent-4.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="overlay-agent">
+          <div class="card-body card-content pri-sec-bg-col">
+            <h1>Margaret Sotillo Escala</h1>
+            <p class="agent-card-text" style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">
+              Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.</p>
+
+            <h5 style="font-size: 16px;"><span class="fw-bold">Phone: </span>+54 356 945234</h5>
+            <h5 style="font-size: 16px;"><span class="fw-bold">Email: </span>agents@example.com</h5>
+            <div class="text-center">
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card agent-card  border-0">
+          <div class=" ">
+            <img src="agent-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay-agent  ">
+          <div class="card-body card-content pri-sec-bg-col">
+            <h1>Stiven Spilver Darw</h1>
+            <p class="agent-card-text" style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">
+              Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.</p>
+
+            <h5><span>Phone: </span>+54 356 945234</h5>
+            <h5><span>Email: </span>agents@example.com</h5>
+            <div class="text-center">
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card agent-card border-0">
+          <div class="">
+            <img src="agent-5.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="overlay-agent">
+          <div class="card-body card-content pri-sec-bg-col">
+            <h1>Emma Toledo Cascada</h1>
+            <p class="agent-card-text" style="font-size: 16px; font-family: 'Poppins', sans-serif; color: #555555;">
+              Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.</p>
+
+            <h5><span>Phone: </span>+54 356 945234</h5>
+            <h5><span>Email: </span>agents@example.com</h5>
+            <div class="text-center">
+            <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Latest News -->
+<section class="py-3 my-5">
+  <div class="property-title mt-5 d-flex justify-content-between">
+    <h1 class="mb-4 pb-4" style="font-size: 50px; font-weight: 700; font-family: 'Roboto', sans-serif; margin-left: 105px;">Latest News</h1>
+    <a href="#" class="btn read-more ps-0 fw-light" style="margin-right: 110px; font-size: 20px;">All News<span><i class="bi bi-chevron-right"></i></span></a>
+  </div>
+  <div class=" container-sm ">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
+    
+      <div class="carousel-inner">
+        <div class=" carousel-item active">
+          <div class="container text-center">
+            <div class="row align-items-center">
+
+              <div class="news-card  col-md-4">
+                <div class="card border-0">
+                <img src="post-5.jpg" class=" d-block w-100" alt="...">
+              </div>
+              <div class="news-overlay">
+                <div class="intro text-start ps-3">
+                  <div class="intro text-white text-start ps-5">
+                    <span class=" btn pri-bg-col py-1 px-3 mt-3  rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">House</span>
+                  </div>
+                  <h1 class=" mt-4 pt-3 text-white" style="font-size: 30px; font-weight: 600;">
+                    House is comming <br>new
+                  </h1>
+                  <span class="date text-white">18 sep. 2023</span>                 
+                </div>
+              </div>
+            </div>
+
+
+              <div class="news-card col-md-4">
+                <div class="card ">
+                <img src="post-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="news-overlay">
+                <div class="intro  text-start ps-3">
+                  <div class="intro  text-start ps-5">
+                    <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">Travel</span>
+                  </div>
+                    <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+                      Travel is comming <br>new
+                    </h2>
+                    <span class="date text-white">18 sep. 2023</span>                
+                  </div>
+              </div>
+            </div>
+
+              <div class="news-card col-md-4">
+                <div class="card border-0">
+                <img src="post-7.jpg" class="d-block w-100" alt="...">
+              </div>
+               <div class="news-overlay">
+                <div class="intro  text-start ps-3">
+                  <div class="intro  text-start ps-5">
+                    <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+                    style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">Park</span>
+                  </div>
+                    <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+                      Park is comming <br>new
+                    </h2>
+                    <span class="date text-white">18 sep. 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="carousel-item">
+          <div class="container text-center">
+            <div class="row align-items-center">
+          <div class="news-card col-md-4">
+            <div class="card border-0">
+            <img src="post-5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="news-overlay">
+            <div class="intro  text-start ps-3">
+              <div class="intro  text-start ps-5">
+                <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">House</span>
+              </div>
+                <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+                  House is comming <br>new
+                </h2>
+                <span class="date text-white">18 sep. 2023</span>
+             </div>
+          </div>
+          </div>
+         
+    
+          <div class="news-card col-md-4">
+            <div class="card ">
+            <img src="post-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="news-overlay">
+            <div class="intro text-start ps-3">
+              <div class="intro  text-start ps-5">
+                <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">Travel</span>
+              </div>
+                <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+                  Travel is comming <br>new
+                </h2>
+                <span class="date text-white">18 sep. 2023</span>           
+               </div>
+          </div>
+        </div>
+    
+          <div class="news-card col-md-4">
+            <div class="card border-0">
+            <img src="post-7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="news-overlay">
+            <div class="intro  text-start ps-3">
+              <div class="intro  text-start ps-5">
+                <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">Park</span>
+              </div>
+                <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+                  Park is comming <br>new
+                </h2>
+                <span class="date text-white">18 sep. 2023</span>            
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <div class="carousel-item">
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <!-- First News Card -->
+      <div class="news-card col-md-4">
+        <div class="card border-0">
+          <img src="post-5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="news-overlay">
+          <div class="intro text-start ps-3">
+            <div class="intro text-start ps-5">
+              <span class="btn pri-bg-col py-1 px-3  mt-3 rounded-pill"
+                style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">House</span>
+            </div>
+            <h2 class="mt-4 pt-4 text-white"  style="font-size: 25px; font-weight: 600;">
+              House is coming <br> new
+            </h2>
+            <span class="date text-white">18 Sep. 2023</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second News Card -->
+      <div class="news-card col-md-4">
+        <div class="card border-0">
+        <img src="post-3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="news-overlay">
+        <div class="intro text-start ps-3">
+          <div class="intro  text-start ps-5">
+            <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+            style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">Park</span>
+          </div>
+            <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+              Park is comming <br>new
+            </h2>
+            <span class="date text-white">18 sep. 2023</span>           
+           </div>
+      </div>
+    </div>
+      <!-- Third News Card -->
+      <div class="news-card col-md-4">
+        <div class="card border-0">
+        <img src="post-7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="news-overlay">
+        <div class="intro  text-start ps-3">
+          <div class="intro  text-start ps-5">
+            <span class=" btn pri-bg-col py-1 px-3 mt-3 rounded-pill" 
+            style="font-weight: 400; font-family: 'Roboto', sans-serif; font-size: 14px;">House</span>
+          </div>
+            <h2 class=" mt-3 pt-3 text-white" style="font-size: 25px; font-weight: 600;">
+              House is comming <br>new
+            </h2>
+            <span class="date text-white">18 sep. 2023</span>            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- testimomial section -->
+
+<section class="py-3 my-3">
+  <div class="property-title mt-5 d-flex justify-content-between">
+    <h1 class="mb-4 pb-4" style="font-size: 50px; font-weight: 700; font-family: 'Roboto', sans-serif; margin-left: 105px;">Testimonials</h1>
+  </div>
+
+  <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container-sm text-center">
+          <div class="row">
+            <div class="col-sm-5 col-md-6">
+              <img src="testimonial-1.jpg" alt="" style="width: 500px;">
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+              <i class="bi bi-chat-quote-fill pri-text-col" style="font-size: 50px;"></i>
+              <p class="text-start mt-3 p-3" style="background-color: #f3f3f3;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Quidem laborum in praesentium similique nostrum culpa, optio 
+                 dicta debitis ullam repellat error minus odit veritatis non vel
+                  assumenda ad maiores dolor.</p>
+              <div class="d-flex">
+                <img src="mini-testimonial-1.jpg" alt="" class="rounded-pill">
+                <h4 class="mt-4 ms-3" style="font-family: 'Roboto', sans-serif; font-size: 15px;">JOHN & BEATRICE</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+   
+
+  <!-- Second Carousel -->
+  <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container-sm text-center">
+          <div class="row">
+            <div class="col-sm-5 col-md-6">
+              <img src="testimonial-2.jpg" alt="" style="width: 500px;">
+            </div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+              <i class="bi bi-chat-quote-fill pri-text-col" style="font-size: 50px;"></i>
+              <p class="text-start mt-3 p-3" style="background-color: #f3f3f3;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quidem laborum in praesentium similique nostrum culpa, optio 
+                dicta debitis ullam repellat error minus odit veritatis non vel
+                 assumenda ad maiores dolor.</p>
+              <div class="d-flex">
+                <img src="mini-testimonial-2.jpg" alt="" class="rounded-pill">
+                <h4 class="mt-4 ms-3" style="font-family: 'Roboto', sans-serif; font-size: 15px;">JANE & JAMES</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<footer class="" style="background-color: #f3f3f3;">
+
+  <div class="container  mt-5 text-start">
+    <div class="row align-items-center">
+      <div class="col">
+        <h1 class=" mb-4">EstateAgency</h1>
+        <p class="" style="font-size: 18px; font-family: 'Roboto', sans-serif;  color: #555555;">
+          Enim minim veniam quis nostrud exercitation ullamco laboris nisi
+          ut aliquip exea commodo consequat duis sed aute irure.</p>
+
+         <h5 style="font-size: 16px;"><span class="fw-bold">Phone: </span>+54 356 945234</h5>
+            <h5 style="font-size: 16px;"><span class="fw-bold">Email: </span>agents@example.com</h5>
+      </div>
+
+      <div class="col">
+        <h1 class="mt-5">The Company</h1>
+        <ul class="fw-medium">
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Site Map</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Legal</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Agent Admin</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Career</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Affliate</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col"></i></span> Privacy</li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h1 class="mt-5">International Sites</h1>
+        <ul class="fw-medium">
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> Venezuela</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> China</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> Hong Kong</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> Argentina</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> Singapore</li>
+          <li class="py-2 border-0" style="list-style: none;"><span><i class="bi bi-chevron-right pri-text-col "></i></span> Philippine</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="text-center pt-4">
+    <span class="p-2">Home</span>
+    <span class="p-2">About</span>
+    <span class="p-2">Service</span>
+  </div>
+
+  <div class="text-center pt-3" style="border-bottom: #55555565 1px solid;">
+    <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-twitter-x"></i></a>
+    <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="btn read-more ps-0 fw-medium"><i class="bi bi-linkedin"></i></a>
+  </div>
+
+  <p class="text-center pt-3 pb-5">© Copyright EstateAgency All Rights Reserved</p>
+</footer>
+
+<!-- bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- AOS Animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+<script>
+  AOS.init();
+</script>
+
+  </body>
+</html>
